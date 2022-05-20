@@ -1,8 +1,10 @@
 window.addEventListener("DOMContentLoaded", function () {
     'use strict'
-    let tabs = document.querySelectorAll(".info-header-tab")
-    let info = document.querySelector(".info-header")
-    let tabContent = document.querySelectorAll(".info-tabcontent")
+//     Paste your classes here _____________________________________
+    let tabs = document.querySelectorAll(".info-header-tab") // tabs' buttons
+    let info = document.querySelector(".info-header") // tabs button's container
+    let tabContent = document.querySelectorAll(".info-tabcontent") // tabs
+//    _______________________________________________________________
 
     function hideTabContent(a) {
         for (let i = a; i < tabContent.length; i++) {
